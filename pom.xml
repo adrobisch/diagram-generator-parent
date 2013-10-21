@@ -8,7 +8,6 @@
     <version>7</version>
   </parent>
 
-
   <groupId>com.github.rmannibucau</groupId>
   <artifactId>diagram-generator-parent</artifactId>
   <version>0.0.2-SNAPSHOT</version>
