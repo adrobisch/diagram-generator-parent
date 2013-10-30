@@ -95,7 +95,7 @@ public class GraphViewerRenderer implements DiagramRenderer {
 
   private BufferedImage createImage(Dimension currentSize, Dimension desiredSize) {
     BufferedImage bi = new BufferedImage(currentSize.width, currentSize.height, BufferedImage.TYPE_INT_ARGB);
-    bi.getGraphics().fillRect(0,0, desiredSize.width, desiredSize.height);
+    bi.getGraphics().fillRect(0,0, currentSize.width, currentSize.height);
     Graphics2D g = bi.createGraphics();
     g.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
     g.setRenderingHint(RenderingHints.KEY_TEXT_ANTIALIASING, RenderingHints.VALUE_TEXT_ANTIALIAS_ON);
